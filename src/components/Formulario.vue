@@ -73,8 +73,7 @@ export default {
       setTimeout(()=> this.alert = false, 2000);
 
     }
-  }
- 
+  } 
 
 }
 </script>
