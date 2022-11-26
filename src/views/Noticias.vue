@@ -31,7 +31,7 @@ export default {
 
   created(){
     // Fazendo consulta no back e trazendo as Noticias
-    this.$axios.get('http://127.0.0.1:8000/api/noticia')
+    this.$axios.get('https://teste.lucasbritto.com/api/public/api/noticia')
     .then((response) => {
       this.noticias = response.data; 
     });

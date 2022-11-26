@@ -59,7 +59,7 @@ export default {
 
       const dataJson = JSON.stringify(data);
       
-      await fetch("http://127.0.0.1:8000/api/cadastrarnoticias",{
+      await fetch("https://teste.lucasbritto.com/api/public/api/cadastrarnoticias",{
         method: "POST",
         headers: {"Content-Type":"application/json"},
         body: dataJson

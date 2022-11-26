@@ -29,7 +29,7 @@ export default {
    
     const query = new URLSearchParams(this.$route.params.id).toString();
 
-    this.$axios.get(`http://127.0.0.1:8000/api/vernoticias/${query}`)
+    this.$axios.get(`https://teste.lucasbritto.com/api/public/api/vernoticias/${query}`)
     .then((response) => {
       this.verNoticia = response.data; 
     })    

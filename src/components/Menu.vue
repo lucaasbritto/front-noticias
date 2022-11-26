@@ -59,7 +59,7 @@ export default {
     getProducts(){
       const query = new URLSearchParams(this.filter).toString();
 
-      this.$axios.get(`http://127.0.0.1:8000/api/noticia?${query}`)
+      this.$axios.get(`https://teste.lucasbritto.com/api/public/api/noticia?${query}`)
           .then((response) => {
               this.verNoticia = response.data; 
               this.emitter.emit("submit", response.data);
