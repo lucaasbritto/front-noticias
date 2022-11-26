@@ -1,7 +1,7 @@
 <template id="Menu">     
       <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a href="/" class="navbar-brand">LOGO</a>
+              <a href="/sistema/investidor10/noticias/" class="navbar-brand">LOGO</a>
             </li>           
             <li class="nav-item">
               <router-link to="/cadastrarnoticias">Cadastrar Noticias | </router-link>   
